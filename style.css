@@ -1,0 +1,108 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+}
+
+.header {
+  background: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 300px;
+}
+
+.under-header {
+  background: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 300px;
+}
+
+.under-header h1 {
+  color: #e5e7eb;
+}
+
+.under-header p {
+  color: #818181;
+}
+
+.under-header button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #4b91f7 0%, #367af6 100%);
+  background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25),
+    inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.under-header button:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2),
+    0px 0.5px 1.5px rgba(54, 122, 246, 0.25),
+    0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+.random-information-body {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+.blue-box {
+  border: 5px solid blue; /* Set the outline width and color */
+  border-radius: 10px; /* Set the corner radius */
+  background-color: transparent; /* Make the background transparent */
+  padding: 20px; /* Add padding for content inside the box */
+  width: 150px; /* Set individual box width */
+  height: 150px;
+}
+
+.random-information-header h1 {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.inspo-quote {
+  background-color: #c8c8c8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 125px;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+}
+
+h1 {
+  color: white;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
